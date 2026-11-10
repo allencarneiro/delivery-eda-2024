@@ -75,7 +75,6 @@ jupyter notebook projeto_final.ipynb
 ├── README.md                     ← este arquivo
 ├── requirements.txt
 ├── projeto_final.ipynb           ← análise completa (Etapas 1 a 11)
-├── autoavaliacao.md              ← ficha de autoavaliação preenchida
 ├── dados/
 │   └── delivery_pedidos.csv      ← base original (NÃO editada)
 └── saidas/
