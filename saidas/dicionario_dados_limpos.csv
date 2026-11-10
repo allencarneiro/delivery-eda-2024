@@ -1,0 +1,24 @@
+coluna,tipo,pct_faltantes,exemplo
+pedido_id,int64,0.0,500000
+data_hora,datetime64[us],0.0,2024-01-01 11:21:00
+cidade,str,0.0,São Paulo
+bairro,str,0.0,Tatuapé
+restaurante_id,str,0.0,R912
+tipo_cozinha,str,0.0,Hambúrguer
+plataforma,str,0.0,Android
+forma_pagamento,str,0.0,Pix
+cupom,bool,0.0,False
+cliente_novo,bool,0.0,False
+chuva,bool,0.0,False
+distancia_km,float64,3.996028791263341,2.68
+tempo_entrega_min,float64,0.4095309009679821,28.0
+valor_pedido,float64,0.0,44.02
+taxa_entrega,float64,0.0,7.4
+avaliacao,float64,16.654256639364608,4.0
+data,object,0.0,2024-01-01
+mes,int32,0.0,1
+hora,int32,0.0,11
+dia_semana,category,0.0,Seg
+tempo_invalido,bool,0.0,False
+distancia_invalida,bool,0.0,False
+pedido_grande,bool,0.0,False
