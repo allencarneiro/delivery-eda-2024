@@ -146,12 +146,9 @@ jupyter notebook projeto_final.ipynb
 - **Dados observacionais, um único ano, dados simulados:** correlação não é causalidade. Chuva, horário de pico e cozinha andam juntos; sem experimento (A/B) não dá para afirmar que só a chuva causa o atraso — pode ser trânsito, falta de entregador ou restaurante lento no mesmo horário.
 - **Avaliação faltante em 16,7% dos pedidos:** quem não avalia pode ser sistematicamente diferente (quem teve experiência mediana tende a não avaliar), o que pode enviesar a média de 4,35.
 
-## 9. Próximos passos
+## 9. Requirements.txt
 
-- **Transformar limitação 1 em ação:** se houver `cliente_id` em outra base, juntar por `pedido_id` e medir retenção em 30/90 dias de quem usou cupom em julho vs quem não usou.
-- **Transformar limitação 2 em ação:** juntar custo do cupom e margem por pedido para calcular ROI da campanha de julho e definir teto de desconto.
-- **Transformar limitação 3 em ação:** rodar A/B de SLA dinâmico na chuva em uma cidade (ex.: BH) por 4 semanas e comparar % acima de 45 min e avaliação antes/depois, controlando por hora e cozinha.
-- **Transformar limitação 4 em ação:** enviar lembrete de avaliação para uma amostra aleatória de quem não avaliou e comparar a média com a amostra atual, para estimar o viés de não-resposta.
+pandas>=2.0 numpy>=1.26.4 seaborn>=0.12 matplotlib>=3.7 scipy>=1.11 jupyter>=1.0
 
 ## 10. Autores
 
